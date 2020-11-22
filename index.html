@@ -17,18 +17,8 @@
     <!-- CSS Front Template -->
     <link rel="stylesheet" href="/assets/css/theme.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
     <script src="/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58588715-1"></script>
-    <!-- JS Implementing Plugins -->
-
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-58588715-1');
-    </script>
 </head>
 
 <body>
@@ -44,7 +34,6 @@
                             alt="Yuktix Logo">
                     </a>
                     <!-- End Logo -->
-
                     <!-- Responsive Toggle Button -->
                     <button type="button" class="navbar-toggler btn btn-icon btn-sm rounded-circle"
                         aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar"
@@ -63,7 +52,6 @@
                         </span>
                     </button>
                     <!-- End Responsive Toggle Button -->
-
                     <!-- Navigation -->
                     <div id="navBar" class="collapse navbar-collapse">
                         <div class="navbar-body header-abs-top-inner">
@@ -75,25 +63,24 @@
                                 </li>
                                 <li class="hs-has-mega-menu navbar-nav-item">
                                     <a id="homeMegaMenu" class="hs-mega-menu-invoker nav-link"
-                                        href="/products.html">Greensense</a>
+                                        href="/greensense.html">Greensense</a>
                                 </li>
                                 <li class="hs-has-mega-menu navbar-nav-item">
                                     <a id="homeMegaMenu" class="hs-mega-menu-invoker nav-link"
-                                        href="/products.html">Technology</a>
+                                        href="/technology.html">Technology</a>
                                 </li>
                                 <li class="hs-has-mega-menu navbar-nav-item">
                                     <a id="homeMegaMenu" class="hs-mega-menu-invoker nav-link"
-                                        href="/products.html">About Us</a>
+                                        href="/about-us.html">About Us</a>
                                 </li>
                                 <li class="hs-has-mega-menu navbar-nav-item">
                                     <a id="homeMegaMenu" class="hs-mega-menu-invoker nav-link"
-                                        href="/products.html">Contact Us</a>
+                                        href="/contact-us.html">Contact Us</a>
                                 </li>
                                 <!-- Button -->
                                 <li class="navbar-nav-last-item">
                                     <a class="btn btn-sm btn-primary transition-3d-hover"
-                                        href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/"
-                                        target="_blank">
+                                        href="https://cloud.yuktix.com" target="_blank">
                                         Greensense Login
                                     </a>
                                 </li>
@@ -108,52 +95,51 @@
         </div>
     </header>
     <!-- ========== END HEADER ========== -->
-    <!-- Gallery Section -->
-    <div class="d-md-flex min-vh-md-100 bg-img-hero mx-4" style="background-image: url(/assets/media/images/1.png);">
-        <div class="container d-md-flex justify-content-md-center flex-md-column min-vh-md-100 space-3 space-md-0">
-            <div class="w-sm-75 w-lg-50">
-                <div class="mb-3">
-                    <!-- Fancybox -->
-                    <a class="js-fancybox video-player video-player-btn" href="javascript:;" data-hs-fancybox-options='{
-               "src": "//youtube.com/LVimD0iVZ7w",
-               "caption": "Front - Responsive Website Template",
-               "speed": 700,
-               "buttons": ["fullScreen", "close"],
-               "vimeo": {
-                 "autoplay": 1
-               }
-             }'>
-                        <span class="video-player-icon">
-                            <i class="fas fa-play"></i>
-                        </span>
-                    </a>
-                    <!-- End Fancybox -->
-                </div>
 
-                <h2 class="h1 text-white">Cultivating a more good and beautiful world.</h2>
-            </div>
-            <div class="w-sm-65 w-lg-40">
-                <p class="text-white">We use this space as a place of reflection on the creative and faith journey.</p>
-            </div>
+    <br>
+    <!--Main banner image-->
+    <div id="banner_image">
+        <div class="container">
+            <center>
+                <div id="banner_content">
+                    <h1>Agriculture Intelligence for <b>"Crops"</b></h1>
+                </div>
+            </center>
         </div>
     </div>
-    <!-- End Gallery Section -->
+    <!--Main banner image end-->
 
-    <!-- JS Implementing Plugins -->
-    <script src="../../assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+    <div id="about-yuktix">
+        <div class="container">
 
-    <!-- JS Front -->
-    <script src="../../assets/js/hs.fancybox.js"></script>
+            <div id="about_content">
+                <p>Yuktix is creating sensors based agri intelligence systems to assist growers in increasing
+                    productivity and reducing resources to create a sustainable and food secure world. </p>
+            </div>
 
-    <!-- JS Plugins Init. -->
-    <script>
-        $(document).on('ready', function () {
-            // initialization of fancybox
-            $('.js-fancybox').each(function () {
-                var fancybox = $.HSCore.components.HSFancyBox.init($(this));
-            });
-        });
-    </script>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row" id="features">
+            <div class="col-5" id="farmers">
+                <img width="70%" src="/assets/media/images/3.jpeg">
+            </div>
+            <div class="col-7">
+                <br>
+                <h2 class="display-5" id="feature-heading">Climate Resiliant Agriculture for tribal farmers.</h2><br>
+                <br><br>
+                <p id="feature-desc">With changing climate, there is no digital input for tribal farmers to use climate
+                    smart agriculture
+                    practices. Farmers produce is effected by changing land patterns, rainfall and excessive use of
+                    pesticide and insecticide</p>
+                <h3 class="display-5"><a href="" Read the Full Case Study</h3>
+            </div>
+
+        </div>
+    </div>
+
+
 </body>
 
 </html>

@@ -1,0 +1,56 @@
+#banner_image {
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(/assets/media/images/2.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#banner_content {
+  position: relative;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  max-width: 660px;
+  height: 600px;
+}
+
+#about_yuktix {
+  position: relative;
+  height: 511px;
+  top: 778px;
+  background-color: rgba(55, 114, 255, 0.1);
+}
+
+#about_content {
+  height: 429px;
+  margin-top: 5%;
+  margin-bottom: -10%;
+  left: 176px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 63px;
+  text-align: center;
+  color: #377dff;
+}
+
+#features {
+  background-color: rgba(55, 114, 255, 0.08);
+}
+
+#farmers {
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+}
+
+#feature-heading {
+  padding-top: 40px;
+}
+
+#feature-desc {
+  font-family: Poppins;
+  font-size: 23px;
+  padding-right: 20%;
+}
