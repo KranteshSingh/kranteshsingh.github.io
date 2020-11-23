@@ -15,7 +15,6 @@
 }
 
 #about_yuktix {
-  position: relative;
   height: 511px;
   top: 778px;
   background-color: rgba(55, 114, 255, 0.1);
@@ -29,7 +28,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 42px;
+  font-size: 2em;
   line-height: 63px;
   text-align: center;
   color: #377dff;
@@ -51,6 +50,148 @@
 
 #feature-desc {
   font-family: Poppins;
-  font-size: 23px;
+  font-size: 1.5em;
   padding-right: 20%;
+}
+
+.box1 {
+  padding-left: 7%;
+}
+
+#areu {
+  text-align: center;
+  margin: auto;
+}
+#areyou {
+  margin-top: -5%;
+}
+
+#bbx1 {
+  border-style: solid;
+  border-color: grey;
+  border-top-width: 4px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+#bbx2 {
+  border-style: solid;
+  border-color: grey;
+  border-top-width: 4px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+#bbx3 {
+  border-style: solid;
+  border-color: grey;
+  border-top-width: 4px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+#bbx4 {
+  border-style: solid;
+  border-color: grey;
+  border-top-width: 4px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+#how_yuk {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(55, 114, 255, 0.08);
+  text-align: center;
+}
+
+#how_content {
+  height: 429px;
+  margin-top: 5%;
+  margin-bottom: -10%;
+  left: 176px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2em;
+  line-height: 63px;
+  text-align: center;
+  color: #377dff;
+}
+
+#video {
+  padding: 10%;
+}
+
+#tech-stack {
+  margin-top: 25%;
+  padding-bottom: 50px;
+  background-color: rgba(55, 114, 255, 0.08);
+  text-align: center;
+}
+
+#tech-stackdesc {
+  height: 429px;
+
+  left: 176px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2em;
+  line-height: 63px;
+  text-align: center;
+  color: #377dff;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#features3 {
+  background-color: rgba(55, 114, 255, 0.08);
+}
+
+#cloud {
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+}
+
+#feature3-heading {
+  padding-top: 40px;
+}
+
+#feature3-desc {
+  font-family: Poppins;
+  font-size: 1.5em;
+  padding-right: 20%;
+}
+
+#features4 {
+  background-color: rgba(55, 114, 255, 0.08);
+}
+
+#dash {
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+}
+
+#feature4-heading {
+  padding-top: 40px;
+}
+
+#feature4-desc {
+  font-family: Poppins;
+  font-size: 1.5em;
+  padding-right: 20%;
+}
+
+.imgs {
+  margin-top: -10%;
 }
