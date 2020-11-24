@@ -19,8 +19,6 @@
 }
 
 #about_yuktix {
-  height: 511px;
-  top: 778px;
   background-color: rgba(55, 114, 255, 0.1);
 }
 
@@ -66,6 +64,7 @@
   text-align: center;
   margin: auto;
 }
+
 #areyou {
   margin-top: -5%;
 }
