@@ -1,93 +1,74 @@
-#banner_image {
-  padding-bottom: 50px;
-  text-align: center;
-  color: #f8f8f8;
-  background: url(/assets/media/images/2.jpg) no-repeat center center;
+* {
+  font-style: Poppins, serif;
+}
+
+/* Home Page CSS */
+
+.heroimage {
+  background-image: url(/assets/media/images/1.png);
   background-size: cover;
+  background-position: center;
+  background-repeat: cover;
+  height: 100vh;
 }
 
-#banner_content {
-  position: relative;
-  padding-top: 6%;
-  padding-bottom: 6%;
-  max-width: 660px;
-  height: 600px;
+.herotext {
+  padding-top: 15%;
   text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  font-size: 2.7em;
 }
 
-#agribanner_image {
-  padding-bottom: 50px;
-  text-align: left;
-  background: url(/assets/media/images/2.jpg) no-repeat center center;
-  background-size: cover;
-  box-shadow: inset 0 0 0 2000px rgba(112, 107, 110, 0.3);
-}
-
-#agribanner_content {
-  position: relative;
-  padding-top: 6%;
-  padding-bottom: 6%;
-  max-width: 660px;
-  height: 600px;
-  text-align: left;
-  color: white;
-  top: 10%;
-  bottom: 10%;
-  left: 10%;
-}
-
-#about_yuktix {
-  background-color: rgba(55, 114, 255, 0.1);
+.about-yuktix {
+  background-color: rgb(55, 114, 255, 0.1);
 }
 
 #about_content {
-  height: 429px;
-  margin-top: 5%;
-  margin-bottom: -10%;
-  left: 176px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2em;
-  line-height: 63px;
   text-align: center;
+  font-size: 2em;
   color: #377dff;
+  padding: 5%;
 }
 
-#features {
-  background-color: rgba(55, 114, 255, 0.08);
+/* Case Study Details */
+.details .content + .content {
+  margin-top: 100px;
 }
 
-#farmers {
-  padding-top: 70px;
-  padding-left: 100px;
-  padding-bottom: 70px;
+.details .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #010483;
 }
 
-#feature-heading {
-  padding-top: 40px;
+.details .content ul {
+  list-style: none;
+  padding: 0;
 }
 
-#feature-desc {
-  font-family: Poppins;
-  font-size: 1.5em;
-  padding-right: 20%;
+.details .content ul li {
+  padding-bottom: 10px;
 }
 
-.box1 {
-  padding-left: 7%;
+.details .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1acc8d;
 }
+
+.details .content p:last-child {
+  margin-bottom: 0;
+}
+
+.casestudydesc {
+  font-size: 1.4em;
+  color: black;
+}
+
+/*End Details */
 
 #areu {
   text-align: center;
   margin: auto;
-}
-
-#areyou {
-  margin-top: -5%;
 }
 
 #how_yuk {
@@ -96,16 +77,10 @@
 }
 
 #how_content {
-  height: 429px;
-  margin-bottom: -10%;
-  left: 176px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2em;
-  line-height: 63px;
   text-align: center;
+  font-size: 2em;
   color: #377dff;
+  padding: 5%;
 }
 
 #video {
@@ -113,69 +88,16 @@
 }
 
 #tech-stack {
-  margin-top: 25%;
-  padding-top: 40px;
-  padding-bottom: 50px;
   background-color: rgba(55, 114, 255, 0.08);
   text-align: center;
 }
 
 #tech-stackdesc {
-  height: 429px;
-  left: 176px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.5em;
-  line-height: 40px;
   text-align: center;
+  font-size: 1.5em;
   color: #377dff;
-  padding-left: 7%;
-  padding-right: 7%;
-}
-
-#features3 {
-  background-color: rgba(55, 114, 255, 0.08);
-}
-
-#cloud {
-  padding-top: 70px;
-  padding-left: 100px;
-  padding-bottom: 70px;
-}
-
-#feature3-heading {
-  padding-top: 40px;
-}
-
-#feature3-desc {
-  font-family: Poppins;
-  font-size: 1.5em;
-  padding-right: 20%;
-}
-
-#features4 {
-  background-color: rgba(55, 114, 255, 0.08);
-}
-
-#dash {
-  padding-top: 70px;
-  padding-left: 100px;
-  padding-bottom: 70px;
-}
-
-#feature4-heading {
-  padding-top: 40px;
-}
-
-#feature4-desc {
-  font-family: Poppins;
-  font-size: 1.5em;
-  padding-right: 20%;
-}
-
-.imgs {
-  margin-top: -20%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 section {
@@ -221,3 +143,5 @@ section {
   font-family: 'Poppins', sans-serif;
   color: #010483;
 }
+
+/* END Home Page CSS */
