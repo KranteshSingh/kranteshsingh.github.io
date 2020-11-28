@@ -145,3 +145,53 @@ section {
 }
 
 /* END Home Page CSS */
+/* Agriculture Page CSS */
+
+.agriimage {
+  background-image: url(/assets/media/images/yuktixherobanner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: cover;
+  background-color: grey;
+  opacity: 0.9;
+  height: 100vh;
+}
+
+.agritext {
+  padding-top: 40%;
+  padding-left: 10%;
+  text-align: left;
+  font-size: 2.7em;
+  color: black;
+}
+
+/* END AGRICULTURE PAGE CSS */
+
+/* Automatic Weather Station Page CSS*/
+
+.productimage {
+  background-image: url(/assets/media/images/YuktixImage.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.producttext {
+  text-align: center;
+  color: white;
+  height: auto;
+  margin-top: 25%;
+  font-style: Poppins;
+  font-weight: normal;
+  padding: 20px;
+}
+
+.bt {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.prod {
+  background-color: rgb(55, 114, 255, 0.1);
+}
