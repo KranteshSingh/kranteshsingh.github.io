@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
     <link rel="stylesheet" href="/assets/vendor/dzsparallaxer/dzsparallaxer.css">
     <link rel="stylesheet" href="/assets/vendor/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../../assets/vendor/leaflet/dist/leaflet.css">
     <!-- CSS Front Template -->
     <link rel="stylesheet" href="/assets/css/theme.css">
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,9 +23,9 @@
 <body>
     <!-- ========== HEADER ========== -->
     <header id="header" class="header header-sticky-top" data-hs-header-options='{
-  "fixMoment": 1000,
-  "fixEffect": "slide"
-}'>
+            "fixMoment": 1000,
+            "fixEffect": "slide"
+          }'>
         <div class="header-section">
             <div id="logoAndNav" class="container">
                 <!-- Nav -->
@@ -59,23 +60,39 @@
                     <div id="navBar" class="collapse navbar-collapse">
                         <ul class="js-scroll-nav navbar-nav">
                             <li class="navbar-nav-item">
-                                <a class="nav-link" href="automatic-weather-station.html">Products</a>
+                                <a class="nav-link" href="about.html">About Us</a>
                             </li>
+                            <!-- Pages -->
+                            <li class="hs-has-sub-menu header-nav-item" data-hs-mega-menu-item-options='{
+                        "desktop": {
+                          "position": "left"
+                        }
+                      }'>
+                                <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle"
+                                    href="javascript:;" aria-haspopup="true" aria-expanded="false"
+                                    aria-labelledby="pagesSubMenu">Products</a>
+                                <div id="pagesSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu"
+                                    style="min-width: 230px;">
+                                    <a class="dropdown-item" href="automatic-weather-station.html">Weather Station</a>
+                                    <a class="dropdown-item" href="digital-rain-gauge.html">Digital Rain Gauge</a>
+                                    <a class="dropdown-item" href="smart-irrigration.html">Smart Irrigation</a>
+                                    <a class="dropdown-item" href="greenhouse-logger.html">Greenhouse Logger</a>
+                                    <a class="dropdown-item" href="greensense.html">Greensense</a>
+                                </div>
+                            </li>
+                            <!-- End Pages -->
                             <li class="navbar-nav-item">
-                                <a class="nav-link" href="agriculture.html">Greensense</a>
+                                <a class="nav-link" href="agriculture.html">Agriculture</a>
                             </li>
                             <li class="navbar-nav-item">
                                 <a class="nav-link" href="technology.html">Technology</a>
                             </li>
                             <li class="navbar-nav-item">
-                                <a class="nav-link" href="about-us.html">About Us</a>
-                            </li>
-                            <li class="navbar-nav-item">
-                                <a class="nav-link" href="contact-us.html">Contact Us</a>
+                                <a class="nav-link" href="contact.html">Contact Us</a>
                             </li>
                             <li class="nav-item navbar-nav-last-item">
                                 <a class="btn btn-primary btn-sm transition-3d-hover" href="https://cloud.yuktix.com"
-                                    target="_blank">Greensense Login</a>
+                                    target="_blank">ankiDB™ cloud</a>
                             </li>
                         </ul>
                     </div>
@@ -86,9 +103,13 @@
         </div>
     </header>
     <!-- ========== END HEADER ========== -->
-    <div class=""></div>
-
+    <br><br><br>
     <!-- Contact Form Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col"><br><br><br></div>
+        </div>
+    </div>
     <div class="container space-2">
         <div class="row">
             <div class="col-lg-6 mb-9 mb-lg-0">
@@ -100,18 +121,18 @@
                 <!-- Leaflet -->
                 <div id="mapExample2" class="min-h-300rem mb-5" data-hs-leaflet-options='{
                "map": {
-                 "scrollWheelZoom": false,
-                 "coords": [37.4040344, -122.0289704]
+                 "scrollWheelZoom": true,
+                 "coords": [12.905176784044777, 77.64459732787259]
                },
                "marker": [
                  {
-                   "coords": [37.4040344, -122.0289704],
+                    "coords": [12.905176784044777, 77.64459732787259],
                    "icon": {
-                     "iconUrl": "../../assets/svg/components/map-pin.svg",
+                     "iconUrl": "/assets/svg/components/map-pin.svg",
                      "iconSize": [50, 45]
                    },
                    "popup": {
-                     "text": "Test text!"
+                     "text": "Yuktix Technologies Pvt Ltd"
                    }
                  }
                ]
@@ -122,19 +143,26 @@
                     <div class="col-sm-6">
                         <div class="mb-3">
                             <span class="d-block h5 mb-1">Call us:</span>
-                            <span class="d-block text-body font-size-1">+1 (062) 109-9222</span>
+                            <span class="d-block text-body font-size-1">+91-80 2572 9456</span>
+                            <span class="d-block text-body font-size-1">+91-888 431 5300</span>
                         </div>
 
                         <div class="mb-3">
                             <span class="d-block h5 mb-1">Email us:</span>
-                            <span class="d-block text-body font-size-1">hello@example.com</span>
+                            <span class="d-block text-body font-size-1">support@yuktix.com</span>
                         </div>
                     </div>
 
                     <div class="col-sm-6">
                         <div class="mb-3">
                             <span class="d-block h5 mb-1">Address:</span>
-                            <span class="d-block text-body font-size-1">153 Williamson Plaza, Maggieberg</span>
+                            <span class="d-block text-body font-size-1"><b>Yuktix Technologies</b><BR>
+                                No. 1713, Floor-2, 19 Main
+                                Sector-2, HSR Layout
+                                Bangalore, Karnataka, 560102</span>
+                            <a class="font-size-14" target="_blank" href="https://goo.gl/maps/yKmwCpsxWD3kPAut9">View on
+                                Google map ></a>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -150,34 +178,44 @@
 
                         <div class="card-body p-4 p-md-6">
                             <div class="row">
-                                <div class="col-sm-6">
+                                <div class="col-sm-12">
                                     <!-- Form Group -->
                                     <div class="js-form-message form-group">
-                                        <label for="firstNameExample1" class="input-label">First name</label>
+                                        <label for="firstNameExample1" class="input-label">Your name</label>
                                         <input type="text" class="form-control" name="firstNameExample1"
-                                            id="firstNameExample1" placeholder="Nataly" aria-label="Nataly" required
-                                            data-msg="Please enter first your name">
+                                            id="firstNameExample1" placeholder="Your Name Here" aria-label="Nataly"
+                                            required data-msg="Please enter first your name">
                                     </div>
                                     <!-- End Form Group -->
                                 </div>
-
-                                <div class="col-sm-6">
-                                    <!-- Form Group -->
-                                    <div class="js-form-message form-group">
-                                        <label for="lastNameExample1" class="input-label">Last name</label>
-                                        <input type="text" class="form-control" name="lastNameExample1"
-                                            id="lastNameExample1" placeholder="Gaga" aria-label="Gaga" required
-                                            data-msg="Please enter last your name">
-                                    </div>
-                                    <!-- End Form Group -->
-                                </div>
-
                                 <div class="col-sm-12">
                                     <!-- Form Group -->
                                     <div class="js-form-message form-group">
                                         <label for="emailAddressExample1" class="input-label">Email address</label>
                                         <input type="email" class="form-control" name="emailAddressExample1"
-                                            id="emailAddressExample1" placeholder="nayagaga@pixeel.com"
+                                            id="emailAddressExample1" placeholder="Enter Email Address Here"
+                                            aria-label="alex@pixeel.com" required
+                                            data-msg="Please enter a valid email address">
+                                    </div>
+                                    <!-- End Form Group -->
+                                </div>
+                                <div class="col-sm-12">
+                                    <!-- Form Group -->
+                                    <div class="js-form-message form-group">
+                                        <label for="phoneNumber" class="input-label">Phone Number</label>
+                                        <input type="email" class="form-control" name="phoneNumber"
+                                            id="emailAddressExample1" placeholder="Enter Phone Number Here"
+                                            aria-label="alex@pixeel.com" required
+                                            data-msg="Please enter a valid email address">
+                                    </div>
+                                    <!-- End Form Group -->
+                                </div>
+                                <div class="col-sm-12">
+                                    <!-- Form Group -->
+                                    <div class="js-form-message form-group">
+                                        <label for="phoneNumber" class="input-label">Subject</label>
+                                        <input type="email" class="form-control" name="phoneNumber"
+                                            id="emailAddressExample1" placeholder="Your Subject Here"
                                             aria-label="alex@pixeel.com" required
                                             data-msg="Please enter a valid email address">
                                     </div>
@@ -212,7 +250,7 @@
         </div>
     </div>
     <!-- End Contact Form Section -->
-
+    <br><br><br>
     <!-- ========== FOOTER ========== -->
     <footer class="container">
         <div class="space-top-1 space-bottom-1 space-bottom-lg-1">
@@ -230,7 +268,7 @@
                     <!-- Nav Link -->
                     <ul class="nav nav-sm nav-x-0 flex-column">
                         <li class="nav-item">
-                            <a class="nav-link media" href="#">
+                            <a class="nav-link media" href="https://goo.gl/maps/y1Zk9iYUtdB7P4NK7" target="_blank">
                                 <span class="media">
                                     <span class="fas fa-location-arrow mt-1 mr-2"></span>
                                     <span class="media-body">
@@ -246,12 +284,12 @@
                         </li>
                         <BR>
                         <li class="nav-item">
-                            <a class="nav-link media" href="#">
+                            <a class="nav-link media" href="tel:+918884315300">
                                 <span class="media">
                                     <span class="fas fa-phone-alt mt-1 mr-2"></span>
                                     <span class="media-body">
                                         +91 80 2572 9456 (Landline)<br>
-                                        +91 88843 15300 (Mobile)
+                                        +91 888 431 5300 (Mobile)
                                     </span>
                                 </span>
                             </a>
@@ -266,17 +304,25 @@
                     <!-- Nav Link -->
                     <ul class="nav nav-sm nav-x-0 flex-column">
                         <li class="nav-item"><a class="nav-link" href="#">About Us </a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Our Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Case Study</a></li>
                     </ul>
                     <!-- End Nav Link -->
                 </div>
 
                 <div class="col-6 col-md-3 col-lg mb-5 mb-lg-0">
-                    <h5>Features</h5>
+                    <h5>Products</h5>
 
                     <!-- Nav Link -->
                     <ul class="nav nav-sm nav-x-0 flex-column">
-                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="automatic-weather-station.html">Weather
+                                Station</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Digital Rain Gauge</a></li>
+                        <li class="nav-item"><a class="nav-link" href="smart-irrigation.html">Smart
+                                Irrigation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="greenhouse-logger.html">Greenhouse Logger</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="greensense.html">Greensense</a></li>
                     </ul>
                     <!-- End Nav Link -->
                 </div>
@@ -286,12 +332,13 @@
 
                     <!-- Nav Link -->
                     <ul class="nav nav-sm nav-x-0 flex-column">
-                        <li class="nav-item"><a class="nav-link" href="mailto:example@gmail.com">Support</a>
+                        <li class="nav-item"><a class="nav-link" href="mailto:support@yuktix.com">Support</a>
                         </li>
+
                         <li class="nav-item"><a class="nav-link" href="#">Docs</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Status</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">API Reference</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Tech Requirements</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">API Reference</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Technology</a></li>
                     </ul>
                     <!-- End Nav Link -->
                 </div>
@@ -302,18 +349,18 @@
                     <!-- Nav Link -->
                     <ul class="nav nav-sm nav-x-0 flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="contact.html">
                                 <span class="media align-items-center">
-                                    <i class="fa fa-info-circle mr-2"></i>
-                                    <span class="media-body">Help</span>
+                                    <i class="fa fa-location-arrow mr-2"></i>
+                                    <span class="media-body">Contact Us</span>
                                 </span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="https://cloud.yuktix.com">
                                 <span class="media align-items-center">
                                     <i class="fa fa-user-circle mr-2"></i>
-                                    <span class="media-body">Greensense Login</span>
+                                    <span class="media-body">ankiDB™ cloud</span>
                                 </span>
                             </a>
                         </li>
@@ -331,15 +378,11 @@
                     <!-- Nav Link -->
                     <ul class="nav nav-sm nav-x-0 align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Privacy & Policy</a>
+                            <a class="nav-link" href="privacy-policy.html">Privacy Policy</a>
                         </li>
                         <li class="nav-item opacity mx-3">/</li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Terms</a>
-                        </li>
-                        <li class="nav-item opacity mx-3">/</li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Site Map</a>
+                            <a class="nav-link" href="terms-conditions.html">Terms & Conditions</a>
                         </li>
                     </ul>
                     <!-- End Nav Link -->
@@ -349,35 +392,43 @@
                     <ul class="list-inline mb-0">
                         <!-- Social Networks -->
                         <li class="list-inline-item">
-                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="#">
+                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="https://www.facebook.com/yuktix"
+                                target="_blank">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="#">
-                                <i class="fab fa-google"></i>
+                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="https://www.instagram.com/yuktix"
+                                target="_blank">
+                                <i class="fab fa-instagram"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="#">
+                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="https://twitter.com/yuktix"
+                                target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="#">
-                                <i class="fab fa-github"></i>
+                            <a class="btn btn-xs btn-icon btn-soft-secondary"
+                                href="https://www.linkedin.com/company/yuktix-technologies-pvt-ltd" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-xs btn-icon btn-soft-secondary"
+                                href="https://www.youtube.com/channel/UCq53oREIZsL_GX039MMeliw" target="_blank">
+                                <i class="fab fa-youtube"></i>
                             </a>
                         </li>
                         <!-- End Social Networks -->
-
-
                     </ul>
                 </div>
             </div>
 
             <!-- Copyright -->
             <div class="w-md-75 text-lg-center mx-lg-auto">
-                <p class="text-muted small">© 2020 Yuktix Technologies PVT. LTD. All rights reserved.</p>
+                <p class="text-muted small">© 2020 Yuktix Technologies PVT. LTD. | All rights reserved.</p>
                 <p class="text-muted small">All content on this website is created by Yuktix Technologies and
                     using any of the content, documents, diagrams, images, slides and videos without prior written
                     consent is not permitted.</p>
@@ -386,9 +437,59 @@
         </div>
     </footer>
     <!-- ========== END FOOTER ========== -->
+    <!-- Global Scripts-->
+    <script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+    <script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Front -->
+    <script src="/assets/js/hs.core.js"></script>
+    <script src="/assets/js/hs.fancybox.js"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+    <script src="/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="/assets/vendor/hs-scroll-nav/dist/hs-scroll-nav.min.js"></script>
+    <script src="/assets/vendor/appear.js"></script>
+    <script src="/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+    <script src="/assets/vendor/hs-video-bg/dist/hs-video-bg.min.js"></script>
+    <script src="/assets/vendor/typed.js/lib/typed.min.js"></script>
+    <script src="/assets/vendor/aos/dist/aos.js"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="../../assets/vendor/leaflet/dist/leaflet.js"></script>
+    <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Front -->
+    <script src="../../assets/js/hs.leaflet.js"></script>
+    <script src="../../assets/js/hs.validation.js"></script>
+    <!-- JS Implementing Plugins -->
+
+    <!-- JS Plugins Init. -->
+    <script>
+        $(document).on('ready', function () {
+            // initialization of header
+            var header = new HSHeader($('#header')).init();
+            // initialization of scroll nav
+            $('.js-scroll-nav').each(function () {
+                var scrollNav = new HSScrollNav($(this)).init();
+            });
+            // initialization of HSMegaMenu component
+            var megaMenu = new HSMegaMenu($('.js-mega-menu')).init();
+        });
+        $(document).on('ready', function () {
+            // initialization of leaflet
+            $('#mapExample2').each(function () {
+                var leaflet = $.HSCore.components.HSLeaflet.init($(this)[0]);
+
+                L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+                    id: 'mapbox/light-v9'
+                }).addTo(leaflet);
+            });
+
+            // initialization of form validation
+            $('.js-validate').each(function () {
+                var validation = $.HSCore.components.HSValidation.init($(this));
+            });
+        });
+    </script>
 </body>
 
 

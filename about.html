@@ -22,9 +22,9 @@
 <body>
     <!-- ========== HEADER ========== -->
     <header id="header" class="header header-sticky-top" data-hs-header-options='{
-  "fixMoment": 1000,
-  "fixEffect": "slide"
-}'>
+            "fixMoment": 1000,
+            "fixEffect": "slide"
+          }'>
         <div class="header-section">
             <div id="logoAndNav" class="container">
                 <!-- Nav -->
@@ -59,23 +59,39 @@
                     <div id="navBar" class="collapse navbar-collapse">
                         <ul class="js-scroll-nav navbar-nav">
                             <li class="navbar-nav-item">
-                                <a class="nav-link" href="automatic-weather-station.html">Products</a>
+                                <a class="nav-link" href="about.html">About Us</a>
                             </li>
+                            <!-- Pages -->
+                            <li class="hs-has-sub-menu header-nav-item" data-hs-mega-menu-item-options='{
+                        "desktop": {
+                          "position": "left"
+                        }
+                      }'>
+                                <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle"
+                                    href="javascript:;" aria-haspopup="true" aria-expanded="false"
+                                    aria-labelledby="pagesSubMenu">Products</a>
+                                <div id="pagesSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu"
+                                    style="min-width: 230px;">
+                                    <a class="dropdown-item" href="automatic-weather-station.html">Weather Station</a>
+                                    <a class="dropdown-item" href="digital-rain-gauge.html">Digital Rain Gauge</a>
+                                    <a class="dropdown-item" href="smart-irrigration.html">Smart Irrigation</a>
+                                    <a class="dropdown-item" href="greenhouse-logger.html">Greenhouse Logger</a>
+                                    <a class="dropdown-item" href="greensense.html">Greensense</a>
+                                </div>
+                            </li>
+                            <!-- End Pages -->
                             <li class="navbar-nav-item">
-                                <a class="nav-link" href="agriculture.html">Greensense</a>
+                                <a class="nav-link" href="agriculture.html">Agriculture</a>
                             </li>
                             <li class="navbar-nav-item">
                                 <a class="nav-link" href="technology.html">Technology</a>
-                            </li>
-                            <li class="navbar-nav-item">
-                                <a class="nav-link" href="about.html">About Us</a>
                             </li>
                             <li class="navbar-nav-item">
                                 <a class="nav-link" href="contact.html">Contact Us</a>
                             </li>
                             <li class="nav-item navbar-nav-last-item">
                                 <a class="btn btn-primary btn-sm transition-3d-hover" href="https://cloud.yuktix.com"
-                                    target="_blank">Greensense Login</a>
+                                    target="_blank">ankiDB™ cloud</a>
                             </li>
                         </ul>
                     </div>
@@ -86,10 +102,191 @@
         </div>
     </header>
     <!-- ========== END HEADER ========== -->
-    <div class=""></div>
+
+    <!-- Hero Section -->
+    <div class="container space-top-3 space-top-lg-4 space-bottom-2 space-bottom-lg-3">
+        <div class="row justify-content-lg-between mb-7">
+            <div class="col-md-6 col-lg-5">
+                <!-- Info -->
+                <div class="mb-5">
+                    <h1>About Yuktix</h1>
+                    <p>Yuktix is a DIPP (Department of Industrial promotion and Policy) recognized startup and a
+                        registered MSME working to create indigenous remote monitoring and sensor analytic solutions</p>
+                </div>
+
+                <div class="mb-3">
+                    <a class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3"
+                        href="/agriculture.html">Get Started</a>
+                    <a class="btn btn-link mb-2 mb-sm-0" href="/contact.html">Let's Talk <i
+                            class="fas fa-angle-right fa-sm ml-1"></i></a>
+                </div>
+
+
+                <!-- End Info -->
+            </div>
+
+            <div class="col-md-6 d-none d-md-inline-block">
+                <!-- SVG Illustration -->
+                <figure class="w-100">
+                    <img class="img-fluid" src="/assets/svg/illustrations/hiker-man.svg" alt="Image Description">
+                </figure>
+                <!-- End SVG Illustration -->
+            </div>
+        </div>
+        <div class="w-md-80 w-lg-50 text-center mx-auto mb-9">
+            <h2 class="text-primary mt-2"><span class="font-weight-bold">Accolades</span></h2>
+        </div>
+        <!-- Accolades -->
+        <div class="row justify-content-between text-center">
+            <div class="col-4 col-lg-2">
+                <div class="mx-3">
+                    <img class="max-w-11rem max-w-md-13rem mx-auto" src="/assets/media/images/indo-israel.jpg"
+                        alt="ISRAEL">
+                </div>
+            </div>
+            <div class="col-4 col-lg-2 mb-5 mb-lg-0">
+                <div class="mx-3">
+                    <img class="max-w-11rem max-w-md-13rem mx-auto" src="/assets/media/images/brinc.png" alt="BRINC">
+                </div>
+            </div>
+            <div class="col-4 col-lg-2 mb-5 mb-lg-0">
+                <div class="mx-3">
+                    <img class="max-w-11rem max-w-md-13rem mx-auto" src="/assets/media/images/kits.png" alt="KITS">
+                </div>
+            </div>
+            <div class="col-4 col-lg-2 mb-5 mb-lg-0">
+                <div class="mx-3">
+                    <img class="max-w-11rem max-w-md-13rem mx-auto" src="/assets/media/images/nasscom-emerge-50.png"
+                        alt="NASSCOM">
+                </div>
+            </div>
+
+            <div class="col-4 col-lg-2">
+                <div class="mx-3">
+                    <img class="max-w-11rem max-w-md-13rem mx-auto" src="/assets/media/images/ccamp.png" alt="CCAMP">
+                </div>
+            </div>
+            <div class="col-4 col-lg-2">
+                <div class="mx-3">
+                    <img class="max-w-11rem max-w-md-13rem mx-auto" src="/assets/media/images/marico.png" alt="MARICO">
+                </div>
+            </div>
+        </div>
+        <!-- End Clients -->
+    </div>
+    <!-- End Hero Section -->
+    <!-- Services Section -->
+    <div class="container space-2">
+        <!-- Title -->
+        <div class="w-md-80 w-lg-60 text-center mx-md-auto mb-9">
+            <span class="d-block small font-weight-bold text-cap mb-2">What we do</span>
+            <h2>Since 2007, we have helped 25 companies launch over 1k incredible growth</h2>
+        </div>
+        <!-- End Title -->
+
+        <div class="row justify-content-lg-center">
+            <div class="col-md-6 col-lg-5 mb-3 mb-md-5 mb-lg-7">
+                <!-- Icon Blocks -->
+                <div class="media pr-lg-5">
+                    <figure class="w-100 max-w-8rem mr-4">
+                        <img class="img-fluid" src="/assets/svg/icons/icon-27.svg" alt="SVG">
+                    </figure>
+                    <div class="media-body">
+                        <h4>BRINC</h4>
+                        <p>Yuktix was among the 11 startups which were selected by BRINC Poland Prize (Hardware & IoT) &
+                            Scale-Up (Industrial IoT) accelerator programs.</p>
+                    </div>
+                </div>
+                <!-- End Icon Blocks -->
+            </div>
+
+            <div class="col-md-6 col-lg-5 mb-3 mb-md-5 mb-lg-7">
+                <!-- Icon Blocks -->
+                <div class="media pl-lg-5">
+                    <figure class="w-100 max-w-8rem mr-4">
+                        <img class="img-fluid" src="/assets/svg/icons/icon-27.svg" alt="SVG">
+                    </figure>
+                    <div class="media-body">
+                        <h4>C-CAMP</h4>
+                        <p>Yuktix is part of second cohort of 14 Centre for Cellular and Molecular Platforms (C-CAMP)
+                            Bio-startups under the Karnataka Bio-Startup Advancement Program (K-SAP BIO 50).</p>
+                    </div>
+                </div>
+                <!-- End Icon Blocks -->
+            </div>
+
+            <div class="w-100"></div>
+
+            <div class="col-md-6 col-lg-5 mb-3 mb-md-5 mb-lg-7">
+                <!-- Icon Blocks -->
+                <div class="media pr-lg-5">
+                    <figure class="w-100 max-w-8rem mr-4">
+                        <img class="img-fluid" src="/assets/svg/icons/icon-27.svg" alt="SVG">
+                    </figure>
+                    <div class="media-body">
+                        <h4>CEATEC, Japan, 2016</h4>
+                        <p>Yuktix was part of a top 10 IoT startups delegation participating in CEATEC 2016, the largest
+                            exhibition and trade fair for advanced electronics and IT in Japan. The trip was organized
+                            by METI ( Ministry of Economy, Trade and Industry in Japan).</p>
+                    </div>
+                </div>
+                <!-- End Icon Blocks -->
+            </div>
+
+            <div class="col-md-6 col-lg-5 mb-3 mb-md-5 mb-lg-7">
+                <!-- Icon Blocks -->
+                <div class="media pl-lg-5">
+                    <figure class="w-100 max-w-8rem mr-4">
+                        <img class="img-fluid" src="/assets/svg/icons/icon-27.svg" alt="SVG">
+                    </figure>
+                    <div class="media-body">
+                        <h4>India Israel Innovation Bridge Winner</h4>
+                        <p>Yuktix was runner up of India-Israel Innovation Bridge 2018 under the Agriculture Challenge
+                            1: Solution for reducing post harvest loss and improving market linkage.</p>
+                    </div>
+                </div>
+                <!-- End Icon Blocks -->
+            </div>
+
+            <div class="w-100"></div>
+
+            <div class="col-md-6 col-lg-5 mb-3 mb-md-5 mb-lg-0">
+                <!-- Icon Blocks -->
+                <div class="media pr-lg-5">
+                    <figure class="w-100 max-w-8rem mr-4">
+                        <img class="img-fluid" src="/assets/svg/icons/icon-27.svg" alt="SVG">
+                    </figure>
+                    <div class="media-body">
+                        <h4>Karnataka Idea2POC Winner</h4>
+                        <p>The Idea2PoC is a scheme of Dept. of IT, BT and S&T, Govt. of Karnataka. The scheme enables
+                            technology innovators and entrepreneurs to pursue a promising technology idea, and validate
+                            proof of concept (POC). yuktix received a grant for developing wireless sensor network for
+                            agriculture monitoring idea into a viable PoC (proof of concept)</p>
+                    </div>
+                </div>
+                <!-- End Icon Blocks -->
+            </div>
+
+            <div class="col-md-6 col-lg-5">
+                <!-- Icon Blocks -->
+                <div class="media pl-lg-5">
+                    <figure class="w-100 max-w-8rem mr-4">
+                        <img class="img-fluid" src="/assets/svg/icons/icon-27.svg" alt="SVG">
+                    </figure>
+                    <div class="media-body">
+                        <h4>NASSCOM Emerge 50 </h4>
+                        <p>Yuktix was selected as one of the top 50 start-ups by NASSCOM under Emerge 50 2015 for
+                            Agriculture disease prediction system using IoT devices.</p>
+                    </div>
+                </div>
+                <!-- End Icon Blocks -->
+            </div>
+        </div>
+    </div>
+    <!-- End Services Section -->
     <!-- ========== MAIN ========== -->
     <main id="content" role="main">
-        <!-- Hero Section -->
+        <!-- Hero Section 
         <div class="container space-top-3 space-top-lg-4 space-bottom-2">
             <div class="w-lg-80 text-center mx-lg-auto">
                 <div class="mb-5 mb-md-11">
@@ -99,10 +296,8 @@
                         solutions.</p>
                 </div>
             </div>
-
-
         </div>
-        <!-- End Hero Section -->
+        End Hero Section -->
 
         <!-- Stats Section -->
         <div class="container space-top-lg-1 space-bottom-2 space-bottom-lg-3">
@@ -145,7 +340,7 @@
         </div>
         <!-- End Divider -->
 
-        <!-- About Section -->
+        <!-- About Section 
         <div class="container space-2 space-lg-3">
             <div class="row justify-content-lg-between">
                 <div class="col-lg-4 mb-5 mb-lg-0">
@@ -158,7 +353,7 @@
                 </div>
             </div>
         </div>
-        <!-- End About Section -->
+         End About Section -->
 
         <!-- Divider -->
         <div class="container">
@@ -173,7 +368,7 @@
             <!-- Title -->
             <div class="w-md-80 w-lg-60 text-center mx-md-auto mb-5 mb-md-9">
                 <span class="d-block small font-weight-bold text-cap mb-2">Our team</span>
-                <h2>Creative mind by people like you</h2>
+                <h2>Creative Minds Empowering Tomorrow's Agriculture</h2>
             </div>
             <!-- End Title -->
 
@@ -183,7 +378,7 @@
                     <div class="card h-100 transition-3d-hover">
                         <div class="card-body">
                             <div class="avatar avatar-lg avatar-circle mb-4">
-                                <img class="avatar-img" src="/assets/img/100x100/img1.jpg" alt="Image Description">
+                                <img class="avatar-img" src="/assets/media/images/rajiv.jpg" alt="Image Description">
                             </div>
                             <span class="d-block small font-weight-bold text-cap mb-1">Founder / CEO</span>
                             <h4 class="text-lh-sm">Rajeev Jha</h4>
@@ -199,13 +394,13 @@
                                 <li class="list-inline-item">
                                     <a class="btn btn-xs btn-icon btn-soft-secondary rounded"
                                         href="https://www.linkedin.com/in/rjha94">
-                                        <i class="fab fa-facebook-f"></i>
+                                        <i class="fab fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
                                     <a class="btn btn-xs btn-icon btn-soft-secondary rounded"
                                         href="https://twitter.com/rjha94">
-                                        <i class="fab fa-google"></i>
+                                        <i class="fab fa-twitter"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -220,7 +415,8 @@
                     <div class="card h-100 transition-3d-hover">
                         <div class="card-body">
                             <div class="avatar avatar-lg avatar-circle mb-4">
-                                <img class="avatar-img" src="/assets/img/100x100/img3.jpg" alt="Image Description">
+                                <img class="avatar-img" src="/assets/media/images/shailendra.jpg"
+                                    alt="Image Description">
                             </div>
                             <span class="d-block small font-weight-bold text-cap mb-1">Co-Founder</span>
                             <h4 class="text-lh-sm">Shailendra Singh</h4>
@@ -235,13 +431,13 @@
                                 <li class="list-inline-item">
                                     <a class="btn btn-xs btn-icon btn-soft-secondary rounded"
                                         href="https://www.linkedin.com/in/shailendrasingh0408/">
-                                        <i class="fab fa-facebook-f"></i>
+                                        <i class="fab fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
                                     <a class="btn btn-xs btn-icon btn-soft-secondary rounded"
                                         href="https://twitter.com/srj0408">
-                                        <i class="fab fa-google"></i>
+                                        <i class="fab fa-twitter"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -253,11 +449,11 @@
     </main>
     <!-- ========== END MAIN ========== -->
     <!-- Team Section -->
-    <div class="container space-2 space-lg-3">
+    <div class="container space-2 space-lg-0">
         <!-- Title -->
         <div class="w-md-80 w-lg-60 text-center mx-md-auto mb-5 mb-md-9">
-            <span class="d-block small font-weight-bold text-cap mb-2">Our Advisers</span>
-            <h2>Creative mind by people like you</h2>
+            <span class="d-block small font-weight-bold text-cap mb-2">Ideas + Innovation</span>
+            <h2>Our Advisers</h2>
         </div>
         <!-- End Title -->
         <div class="row mx-n2 mb-5">
@@ -266,7 +462,7 @@
                 <div class="card h-100 transition-3d-hover">
                     <div class="card-body">
                         <div class="avatar avatar-lg avatar-circle mb-4">
-                            <img class="avatar-img" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
+                            <img class="avatar-img" src="/assets/media/images/bns-murthy.jpg" alt="Image Description">
                         </div>
                         <span class="d-block small font-weight-bold text-cap mb-1">Horticulture Commissioner of
                             India</span>
@@ -285,11 +481,12 @@
                 <div class="card h-100 transition-3d-hover">
                     <div class="card-body">
                         <div class="avatar avatar-lg avatar-circle mb-4">
-                            <img class="avatar-img" src="../../assets/img/100x100/img3.jpg" alt="Image Description">
+                            <img class="avatar-img" src="/assets/media/images/sridhar-gautam.jpg"
+                                alt="Image Description">
                         </div>
                         <span class="d-block small font-weight-bold text-cap mb-1">Senior Scientist, Indian Council of
                             Agriculture Research</span>
-                        <h4 class="text-lh-sm">Dr. Sridhar G</h4>
+                        <h4 class="text-lh-sm">Dr. Sridhar Gautam</h4>
                         <p class="font-size-1">PhD in Plant Physiology from the ICAR-Indian Agricultural Research
                             Institute. Dr sridhar is a proponent of opening up of data and information (Open Access &
                             Open Data) and application of free and open source software in agricultural research. He is
@@ -305,7 +502,7 @@
                 <div class="card h-100 transition-3d-hover">
                     <div class="card-body">
                         <div class="avatar avatar-lg avatar-circle mb-4">
-                            <img class="avatar-img" src="../../assets/img/100x100/img11.jpg" alt="Image Description">
+                            <img class="avatar-img" src="/assets/media/images/nb-singh.jpg" alt="Image Description">
                         </div>
                         <span class="d-block small font-weight-bold text-cap mb-1">Dean, Central Agriculture
                             University</span>
@@ -324,7 +521,8 @@
                 <div class="card h-100 transition-3d-hover">
                     <div class="card-body">
                         <div class="avatar avatar-lg avatar-circle mb-4">
-                            <img class="avatar-img" src="../../assets/img/100x100/img12.jpg" alt="Image Description">
+                            <img class="avatar-img" src="/assets/media/images/Rishi-mughsot-2.png"
+                                alt="Image Description">
                         </div>
                         <span class="d-block small font-weight-bold text-cap mb-1"></span>
                         <h4 class="text-lh-sm">Rishi Prakash</h4>
@@ -336,22 +534,13 @@
                 <!-- End Team -->
             </div>
         </div>
+        <br>
 
-        <!-- Info -->
-        <div class="text-center">
-            <div class="d-inline-block font-size-1 border bg-white text-center rounded-pill py-3 px-4">
-                Wanna work with us? <a class="font-weight-bold ml-3" href="hire-us.html">We are hiring <span
-                        class="fas fa-angle-right fa-sm ml-1"></span></a>
-            </div>
-        </div>
-        <!-- End Info -->
     </div>
     <!-- End Team Section -->
 
     </main>
     <!-- ========== END MAIN ========== -->
-
-
     <!-- ========== FOOTER ========== -->
     <footer class="container">
         <div class="space-top-1 space-bottom-1 space-bottom-lg-1">
@@ -385,12 +574,12 @@
                         </li>
                         <BR>
                         <li class="nav-item">
-                            <a class="nav-link media" href="#">
+                            <a class="nav-link media" href="tel:+918884315300">
                                 <span class="media">
                                     <span class="fas fa-phone-alt mt-1 mr-2"></span>
                                     <span class="media-body">
                                         +91 80 2572 9456 (Landline)<br>
-                                        +91 88843 15300 (Mobile)
+                                        +91 888 431 5300 (Mobile)
                                     </span>
                                 </span>
                             </a>
@@ -405,17 +594,25 @@
                     <!-- Nav Link -->
                     <ul class="nav nav-sm nav-x-0 flex-column">
                         <li class="nav-item"><a class="nav-link" href="#">About Us </a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Our Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Case Study</a></li>
                     </ul>
                     <!-- End Nav Link -->
                 </div>
 
                 <div class="col-6 col-md-3 col-lg mb-5 mb-lg-0">
-                    <h5>Features</h5>
+                    <h5>Products</h5>
 
                     <!-- Nav Link -->
                     <ul class="nav nav-sm nav-x-0 flex-column">
-                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="automatic-weather-station.html">Weather
+                                Station</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Digital Rain Gauge</a></li>
+                        <li class="nav-item"><a class="nav-link" href="smart-irrigation.html">Smart
+                                Irrigation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="greenhouse-logger.html">Greenhouse Logger</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="greensense.html">Greensense</a></li>
                     </ul>
                     <!-- End Nav Link -->
                 </div>
@@ -425,12 +622,13 @@
 
                     <!-- Nav Link -->
                     <ul class="nav nav-sm nav-x-0 flex-column">
-                        <li class="nav-item"><a class="nav-link" href="mailto:example@gmail.com">Support</a>
+                        <li class="nav-item"><a class="nav-link" href="mailto:support@yuktix.com">Support</a>
                         </li>
+
                         <li class="nav-item"><a class="nav-link" href="#">Docs</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Status</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">API Reference</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Tech Requirements</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">API Reference</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Technology</a></li>
                     </ul>
                     <!-- End Nav Link -->
                 </div>
@@ -441,18 +639,18 @@
                     <!-- Nav Link -->
                     <ul class="nav nav-sm nav-x-0 flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="contact.html">
                                 <span class="media align-items-center">
-                                    <i class="fa fa-info-circle mr-2"></i>
-                                    <span class="media-body">Help</span>
+                                    <i class="fa fa-location-arrow mr-2"></i>
+                                    <span class="media-body">Contact Us</span>
                                 </span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="https://cloud.yuktix.com">
                                 <span class="media align-items-center">
                                     <i class="fa fa-user-circle mr-2"></i>
-                                    <span class="media-body">Greensense Login</span>
+                                    <span class="media-body">ankiDB™ cloud</span>
                                 </span>
                             </a>
                         </li>
@@ -470,15 +668,11 @@
                     <!-- Nav Link -->
                     <ul class="nav nav-sm nav-x-0 align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Privacy & Policy</a>
+                            <a class="nav-link" href="privacy-policy.html">Privacy Policy</a>
                         </li>
                         <li class="nav-item opacity mx-3">/</li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Terms</a>
-                        </li>
-                        <li class="nav-item opacity mx-3">/</li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Site Map</a>
+                            <a class="nav-link" href="terms-conditions.html">Terms & Conditions</a>
                         </li>
                     </ul>
                     <!-- End Nav Link -->
@@ -488,35 +682,43 @@
                     <ul class="list-inline mb-0">
                         <!-- Social Networks -->
                         <li class="list-inline-item">
-                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="#">
+                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="https://www.facebook.com/yuktix"
+                                target="_blank">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="#">
-                                <i class="fab fa-google"></i>
+                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="https://www.instagram.com/yuktix"
+                                target="_blank">
+                                <i class="fab fa-instagram"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="#">
+                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="https://twitter.com/yuktix"
+                                target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn btn-xs btn-icon btn-soft-secondary" href="#">
-                                <i class="fab fa-github"></i>
+                            <a class="btn btn-xs btn-icon btn-soft-secondary"
+                                href="https://www.linkedin.com/company/yuktix-technologies-pvt-ltd" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-xs btn-icon btn-soft-secondary"
+                                href="https://www.youtube.com/channel/UCq53oREIZsL_GX039MMeliw" target="_blank">
+                                <i class="fab fa-youtube"></i>
                             </a>
                         </li>
                         <!-- End Social Networks -->
-
-
                     </ul>
                 </div>
             </div>
 
             <!-- Copyright -->
             <div class="w-md-75 text-lg-center mx-lg-auto">
-                <p class="text-muted small">© 2020 Yuktix Technologies PVT. LTD. All rights reserved.</p>
+                <p class="text-muted small">© 2020 Yuktix Technologies PVT. LTD. | All rights reserved.</p>
                 <p class="text-muted small">All content on this website is created by Yuktix Technologies and
                     using any of the content, documents, diagrams, images, slides and videos without prior written
                     consent is not permitted.</p>
@@ -525,9 +727,37 @@
         </div>
     </footer>
     <!-- ========== END FOOTER ========== -->
+    <!-- Global Scripts-->
+    <script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+    <script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Front -->
+    <script src="/assets/js/hs.core.js"></script>
+    <script src="/assets/js/hs.fancybox.js"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+    <script src="/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="/assets/vendor/hs-scroll-nav/dist/hs-scroll-nav.min.js"></script>
+    <script src="/assets/vendor/appear.js"></script>
+    <script src="/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+    <script src="/assets/vendor/hs-video-bg/dist/hs-video-bg.min.js"></script>
+    <script src="/assets/vendor/typed.js/lib/typed.min.js"></script>
+    <script src="/assets/vendor/aos/dist/aos.js"></script>
+    <!-- JS Implementing Plugins -->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Plugins Init. -->
+    <script>
+        $(document).on('ready', function () {
+            // initialization of header
+            var header = new HSHeader($('#header')).init();
+            // initialization of scroll nav
+            $('.js-scroll-nav').each(function () {
+                var scrollNav = new HSScrollNav($(this)).init();
+            });
+            // initialization of HSMegaMenu component
+            var megaMenu = new HSMegaMenu($('.js-mega-menu')).init();
+        });
+    </script>
 </body>
 
 

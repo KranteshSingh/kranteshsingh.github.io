@@ -90,6 +90,7 @@
 #tech-stack {
   background-color: rgba(55, 114, 255, 0.08);
   text-align: center;
+  padding-top: 5%;
 }
 
 #tech-stackdesc {
@@ -98,6 +99,7 @@
   color: #377dff;
   padding-left: 15%;
   padding-right: 15%;
+  padding-bottom: 5%;
 }
 
 section {
