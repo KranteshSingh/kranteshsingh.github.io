@@ -171,7 +171,7 @@
             <div class="col-lg-6">
                 <div class="ml-lg-5">
                     <!-- Form -->
-                    <form class="js-validate card shadow-lg mb-4">
+                    <form class="js-validate card shadow-lg mb-4" method="post" action="mailer.php">
                         <div class="card-header border-0 bg-light text-center py-4 px-4 px-md-6">
                             <h2 class="h4 mb-0">General Enquiries</h2>
                         </div>
@@ -182,7 +182,7 @@
                                     <!-- Form Group -->
                                     <div class="js-form-message form-group">
                                         <label for="firstNameExample1" class="input-label">Your name</label>
-                                        <input type="text" class="form-control" name="firstNameExample1"
+                                        <input type="text" class="form-control" name="visitorName"
                                             id="firstNameExample1" placeholder="Your Name Here" aria-label="Nataly"
                                             required data-msg="Please enter first your name">
                                     </div>
@@ -192,7 +192,7 @@
                                     <!-- Form Group -->
                                     <div class="js-form-message form-group">
                                         <label for="emailAddressExample1" class="input-label">Email address</label>
-                                        <input type="email" class="form-control" name="emailAddressExample1"
+                                        <input type="email" class="form-control" name="visitorEmail"
                                             id="emailAddressExample1" placeholder="Enter Email Address Here"
                                             aria-label="alex@pixeel.com" required
                                             data-msg="Please enter a valid email address">
@@ -203,7 +203,7 @@
                                     <!-- Form Group -->
                                     <div class="js-form-message form-group">
                                         <label for="phoneNumber" class="input-label">Phone Number</label>
-                                        <input type="email" class="form-control" name="phoneNumber"
+                                        <input type="email" class="form-control" name="visitorPhone"
                                             id="emailAddressExample1" placeholder="Enter Phone Number Here"
                                             aria-label="alex@pixeel.com" required
                                             data-msg="Please enter a valid email address">
@@ -214,7 +214,7 @@
                                     <!-- Form Group -->
                                     <div class="js-form-message form-group">
                                         <label for="phoneNumber" class="input-label">Subject</label>
-                                        <input type="email" class="form-control" name="phoneNumber"
+                                        <input type="email" class="form-control" name="visitorSubject"
                                             id="emailAddressExample1" placeholder="Your Subject Here"
                                             aria-label="alex@pixeel.com" required
                                             data-msg="Please enter a valid email address">
@@ -227,7 +227,7 @@
                                     <div class="js-form-message form-group">
                                         <label for="message" class="input-label">Message</label>
                                         <div class="input-group">
-                                            <textarea class="form-control" rows="4" name="message" id="message"
+                                            <textarea class="form-control" rows="4" name="visitorMessage" id="message"
                                                 placeholder="Hi there, I would like to ..."
                                                 aria-label="Hi there, I would like to ..." required
                                                 data-msg="Please enter a reason."></textarea>
